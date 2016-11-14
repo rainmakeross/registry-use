@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: registry-use
+  cloud:
+    services:
+      registrationMethod: route
+security:
+  basic:
+    enabled: false
+eureka:
+  client:
+    register-with-eureka: false
